@@ -1,3 +1,9 @@
+# Generic files
+.DS_Store
+
+# Script Specific files
+scripts/node_modules/**
+
 #  Local .terraform directories
 **/.terraform/*
 

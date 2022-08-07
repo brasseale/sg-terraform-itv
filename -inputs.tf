@@ -1,7 +1,7 @@
 variable "account_numbers" {
   description = "Whitelisted account numbers to apply terraform code in. Can apply in any if left blank."
-  type    = list(string)
-  default = []
+  type        = list(string)
+  default     = []
 }
 
 variable "region" {
@@ -63,6 +63,15 @@ variable "env_name" {
 
 variable "source_repo" {
   description = "name of repo which holds this code"
+  type        = string
+}
+
+variable "site_repo" {
+  description = "name of repo which holds the demo site code"
+  type        = string
+}
+variable "site_repo_primary_branch" {
+  description = "name of repo which holds the demo site code"
   type        = string
 }
 
