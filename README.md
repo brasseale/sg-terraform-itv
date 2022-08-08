@@ -1,6 +1,4 @@
-# Interview Starter
-
-This is to provide a foundation which interview candidates can build terraform projects on top of. 
+# SG Demo
 
 ### Init:
 Without Role Assumption:
